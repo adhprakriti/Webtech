@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.parent{
+    width: 100%;
+    height: 500px; 
+    background-color: rgb(202, 232, 175);
+}
+
+.parent .right{
+    width: 30%;
+    float: right;
+}
+
+.parent .left{
+    width: 70%;
+    float: left;
+}
+
+.right img{
+    width: 100%;
+    height: 500px;
+}
+
+nav{
+    background-color: rgb(61, 155, 72);
+    height: 35px;
+    position: sticky;
+ }
+ 
